@@ -21,7 +21,7 @@ function BOBScoreCalculator(arg1, arg2)
   SetNames[UnitName("mouseover")] = amount;
  end
  
- if (SetNames[UnitName("mouseover")] == "Martanussa") then
+ if (SetNames[UnitName("mouseover")] == "Tadonis") then
  amount = 0;
  end
  
@@ -33,13 +33,10 @@ GameTooltip:AddLine("CRITERROR! GOD DETECTED!", 1,1,1);
  if ( amount < 100 ) then
 GameTooltip:AddLine("WARNING! PRO GAMER DETECTED!", 1,1,1);
  end
- if ((350 < amount) and (amount < 64999)) then
- GameTooltip:AddLine("Normal Player", 1,1,1);
- end
-if ((701 < amount) and (amount < 98739)) then
+if ((amount > 701) and (amount < 2100)) then
 GameTooltip:AddLine("WARNING! BOB DETECTED!", 1,1,1);
  end
-if ( amount > 701 ) then
+if ( amount > 2100 ) then
 GameTooltip:AddLine("LEEEEEEEEROY JENKINS!", 1,1,1);
  end
  
