@@ -1,0 +1,7 @@
+## Title: BOBScore
+## Version: 1.0 Classic
+## Note: Calculates a players "BOBScore" based on highly trigonometric astrometic formulas developed and invented by Albert Einstein and me.
+## Author: PlanetRageTV
+## Interface: 11302
+
+BOBScore.lua
