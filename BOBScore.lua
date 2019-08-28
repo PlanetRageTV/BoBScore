@@ -33,6 +33,9 @@ GameTooltip:AddLine("CRITERROR! GOD DETECTED!", 1,1,1);
  if ( amount < 100 ) then
 GameTooltip:AddLine("WARNING! PRO GAMER DETECTED!", 1,1,1);
  end
+if ((amount > 100) and (amount < 701)) then
+GameTooltip:AddLine("Normal Player / NPC", 1,1,1);
+ end
 if ((amount > 701) and (amount < 2100)) then
 GameTooltip:AddLine("WARNING! BOB DETECTED!", 1,1,1);
  end
